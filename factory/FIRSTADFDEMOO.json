@@ -1,0 +1,15 @@
+{
+	"name": "FIRSTADFDEMOO",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "66f40ce5-de78-421f-b35e-8a194c96a6ce",
+		"tenantId": "1b0e3820-d8f1-4cb9-b4f0-c259faa00e47"
+	}
+}

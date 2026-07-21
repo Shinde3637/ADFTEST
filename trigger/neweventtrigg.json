@@ -1,0 +1,24 @@
+{
+	"name": "neweventtrigg",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "EVENT_TRIGGER_PL",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/eventtriggerfies/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/0245fa0d-9242-4f87-8cb7-9eee08a7c01a/resourceGroups/FirstRG/providers/Microsoft.Storage/storageAccounts/demstoacc1",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
